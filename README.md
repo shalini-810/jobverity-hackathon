@@ -1,4 +1,4 @@
-# Omnikon-Hackthon
+# Omnikon-Hackathon
 
 **JobVerity**
 
