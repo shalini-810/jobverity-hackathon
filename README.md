@@ -38,16 +38,16 @@ Vercel - Hosting and deployment
                      └──────────┬──────────┘
                                 │
                                 ▼
-                     ┌─────────────────────┐
-                     │  Next.js API Routes  │
-                     │  (scraping + scoring)│
-                     └──────────┬──────────┘
+                     ┌───────────────────────┐
+                     │  Next.js API Routes   │
+                     │  (scraping + scoring) │
+                     └──────────┬────────────┘
                  ┌──────────────┼──────────────┐
                  ▼              ▼              ▼
         ┌───────────────┐ ┌───────────┐ ┌──────────────┐
-        │ Cheerio /     │ │ whois-json │ │ Groq Vision │
-        │ Playwright    │ │ (domain    │ │ (screenshot │
-        │ (scraping)    │ │  age check)│ │  fallback)  │
+        │ Cheerio /     │ │ whois-json│ │ Groq Vision  │
+        │ Playwright    │ │ (domain   │ │ (screenshot  │
+        │ (scraping)    │ │ age check)│ │  fallback)   │
         └───────┬───────┘ └─────┬─────┘ └──────┬───────┘
                 └───────────────┼──────────────┘
                                 ▼
