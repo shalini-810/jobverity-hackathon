@@ -14,15 +14,15 @@ JobVerity is an AI-powered platform that detects fake job postings and recruitme
 
 # Tech Stack
 Technology & Role
-Next.js	- Frontend UI and backend API routes in a single project (posting input, scoring endpoint, results display)
-Cheerio	- Lightweight scraping of static HTML job posting pages
-Playwright - Headless-browser scraping for JavaScript-rendered pages, and full-page screenshot capture as a fallback
-Groq API (Llama 3.3 70B) - Generates the plain-English explanation from the matched risk signals
-Groq Vision model -	Reads job posting screenshots when text scraping isn't possible
-Supabase (Postgres) -	Stores scored postings and the crowdsourced flagged-company leaderboard
-whois-json - Checks domain registration age to flag newly-created domains impersonating real companies
-Tailwind CSS - Styling
-Vercel - Hosting and deployment
+1. Next.js	- Frontend UI and backend API routes in a single project (posting input, scoring endpoint, results display)
+2. Cheerio	- Lightweight scraping of static HTML job posting pages
+3. Playwright - Headless-browser scraping for JavaScript-rendered pages, and full-page screenshot capture as a fallback
+4. Groq API (Llama 3.3 70B) - Generates the plain-English explanation from the matched risk signals
+5. Groq Vision model -	Reads job posting screenshots when text scraping isn't possible
+6. Supabase (Postgres) -	Stores scored postings and the crowdsourced flagged-company leaderboard
+7. whois-json - Checks domain registration age to flag newly-created domains impersonating real companies
+8. Tailwind CSS - Styling
+9. Vercel - Hosting and deployment
 
 # Architecture
 
